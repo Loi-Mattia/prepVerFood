@@ -1,0 +1,8 @@
+<div *ngIf="items">
+
+    <img src="{{items.product.image_url}}" alt="">
+    <h1>{{ items.code }}</h1>
+    
+    <br>
+    <p><a href (click)="back()" class="btn btn-primary">Back</a></p>
+</div>
